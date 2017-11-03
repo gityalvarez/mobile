@@ -12,7 +12,7 @@ import 'rxjs/add/operator/map';
 export class RestapiServiceProvider {
 
 data:any;
-apiUrl ='http://localhost:8000/api/v1/producto?access_token=0PMHlJ6SP2ABmQ2VAIaYC0wvgxU6bgz2doLxlOIt';
+apiUrl ='http://localhost:8000/api/v1/producto';
 
 constructor(public http: Http) {
     console.log('Hello RestapiServiceProvider Provider');
